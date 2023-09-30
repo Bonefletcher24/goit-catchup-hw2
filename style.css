@@ -1,0 +1,96 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY: #2E2F42;
+    --WHITE: #FFFFFF;
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+}
+
+/* body font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+/* WEB */
+.logo span{
+    color: var(--IRIS);
+}
+
+/* header studio */
+header .logo {
+    color:var(--NAVY);
+}
+
+/* remove ____ */
+.list a {
+    text-decoration: 0;
+    color: var(--NAVY);
+}
+
+/* remove bullet points */
+ul.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Change cursor color */
+.hvr-effct:hover {
+    color: var(--IRIS);
+}
+
+/* Background hero and footer */
+.bg-dark {
+background-color: var(--NAVY);
+}
+
+/* Effective solutions */
+.hero h1{
+color: var(--WHITE);
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
+}
+
+/* Order Button */
+.hero .btn {
+color: var(--WHITE);
+background-color: var(--IRIS);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+border:none;
+border-radius: 4px;
+}
+
+/* Button hover */
+.hero .btn:hover {
+
+}
+
+/* footer studio */
+footer .logo {
+    color:var(--CLOUD)
+} 
+
+.footer {
+    color: var(--WHITE);
+}
+
